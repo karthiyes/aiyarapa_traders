@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: #F7F5F0;
+  color: #1C2521;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+
+.font-display {
+  font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hide number input spinners for cleaner mobile forms */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-thumb { background: #E4E0D6; border-radius: 4px; }
+
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
