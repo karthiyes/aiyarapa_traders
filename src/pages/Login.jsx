@@ -28,7 +28,7 @@ export default function Login() {
     <div className="min-h-screen bg-paper flex items-center justify-center px-4">
       <div className="w-full max-w-sm">
         <div className="text-center mb-8">
-          <p className="font-display font-bold text-2xl text-primary">AYYARAPA</p>
+          <p className="font-display font-bold text-2xl text-primary">AIYARAPPA</p>
           <p className="font-display font-bold text-lg text-accent tracking-wide -mt-1">TRADERS</p>
           <p className="text-ink/50 text-sm mt-2">Shop management — sign in to continue</p>
         </div>
