@@ -27,7 +27,7 @@ export default function Layout() {
       {/* Desktop / tablet sidebar */}
       <aside className="hidden md:flex flex-col w-60 shrink-0 border-r border-line bg-surface p-4 h-screen sticky top-0">
         <div className="mb-6 px-1">
-          <p className="font-display font-bold text-lg text-primary leading-tight">AYYARAPA</p>
+          <p className="font-display font-bold text-lg text-primary leading-tight">AIYARAPPA</p>
           <p className="font-display font-bold text-sm text-accent tracking-wide -mt-1">TRADERS</p>
         </div>
         <nav className="flex flex-col gap-1 flex-1">
@@ -60,7 +60,7 @@ export default function Layout() {
         {/* Mobile top bar */}
         <header className="md:hidden sticky top-0 z-30 bg-surface border-b border-line px-4 py-3 flex items-center justify-between">
           <div>
-            <p className="font-display font-bold text-primary leading-none">AYYARAPA TRADERS</p>
+            <p className="font-display font-bold text-primary leading-none">AIYARAPPA TRADERS</p>
           </div>
           <button onClick={signOut} className="text-xs text-ink/50">Sign out</button>
         </header>
